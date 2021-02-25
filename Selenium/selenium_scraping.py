@@ -1,4 +1,4 @@
-#スクレイピングができない…。
+#Google検索結果はスクレイピングできない。
 
 from selenium import webdriver
 from bs4 import BeautifulSoup

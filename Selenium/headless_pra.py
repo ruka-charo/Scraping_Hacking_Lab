@@ -1,3 +1,15 @@
+#Google検索結果はスクレイピングできない。
+
+#最新のWebdriverをインストールしてから実行。
+'''
+ from selenium import webdriver
+ from webdriver_manager.chrome import ChromeDriverManager
+
+ driver = webdriver.Chrome(ChromeDriverManager().install())
+ driver.get(url)
+'''
+
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
