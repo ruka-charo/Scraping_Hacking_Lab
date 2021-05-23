@@ -1,3 +1,4 @@
+%cd /Users/rukaoide/Library/Mobile Documents/com~apple~CloudDocs/Documents/Python/9_Scraping_Hacking_Lab/MeCab
 import MeCab
 import requests
 from bs4 import BeautifulSoup
